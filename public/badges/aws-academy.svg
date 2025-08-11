@@ -1,0 +1,8 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M50 100 L200 50 L350 100 L350 300 L200 350 L50 300 Z" fill="#232F3E"/>
+  <path d="M70 120 L200 80 L330 120 L330 280 L200 320 L70 280 Z" fill="#FFFFFF"/>
+  <path d="M90 140 L200 110 L310 140 L310 260 L200 290 L90 260 Z" fill="#4285F4"/>
+  <text x="200" y="180" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">AWS ACADEMY</text>
+  <text x="200" y="220" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Cloud</text>
+  <text x="200" y="250" font-family="Arial" font-size="20" fill="white" text-anchor="middle">Architecting</text>
+</svg>
