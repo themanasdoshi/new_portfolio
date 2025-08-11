@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Manas Doshi - Portfolio Website
+
+A lightweight and dynamic personal portfolio website built with Next.js, Tailwind CSS, and Framer Motion.
+
+## Features
+
+- Responsive design that works on all devices
+- Smooth animations and transitions using Framer Motion
+- Dark mode support
+- SEO optimized
+- Fast loading times
+- Easy to customize and extend
+
+## Sections
+
+- Hero
+- About
+- Skills
+- Projects
+- Education
+- Certifications
+- Research & Publications
+- Extracurricular Activities
+- Contact
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+cd portfolio
+```
+
+2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Deploying to Vercel
 
-## Learn More
+The easiest way to deploy this portfolio website is to use the [Vercel Platform](https://vercel.com).
 
-To learn more about Next.js, take a look at the following resources:
+1. Create a Vercel account if you don't have one
+2. Install the Vercel CLI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm install -g vercel
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Run the following command in the project directory
 
-## Deploy on Vercel
+```bash
+vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Follow the prompts to deploy your website
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Custom Domain
+
+To use a custom domain with your Vercel deployment:
+
+1. Go to your project on the Vercel dashboard
+2. Navigate to the "Domains" section
+3. Add your domain and follow the instructions to configure DNS settings
+
+## Customization
+
+### Updating Content
+
+To update the content of your portfolio, modify the following files:
+
+- `src/components/Hero.tsx` - Update your name, title, and introduction
+- `src/components/About.tsx` - Update your about section
+- `src/components/Skills.tsx` - Update your skills
+- `src/components/Projects.tsx` - Update your projects
+- `src/components/Education.tsx` - Update your education
+- `src/components/Certifications.tsx` - Update your certifications
+- `src/components/Research.tsx` - Update your research and publications
+- `src/components/Extracurricular.tsx` - Update your extracurricular activities
+- `src/components/Contact.tsx` - Update your contact information
+
+### Changing Colors and Styling
+
+To change the colors and styling, modify the following files:
+
+- `src/app/globals.css` - Update the CSS variables and Tailwind classes
+- `tailwind.config.js` - Update the Tailwind configuration
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+# new_portfolio
