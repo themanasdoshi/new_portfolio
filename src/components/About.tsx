@@ -20,9 +20,11 @@ const About = () => {
               decision-making.
             </p>
             <p className="text-lg mb-6">
-              I'm passionate about leveraging technology to solve real-world problems. My academic background in Computer Science
+              {/* Corrected Line Below */}
+              I&apos;m passionate about leveraging technology to solve real-world problems. My academic background in Computer Science
               has equipped me with a strong foundation in algorithms, data structures, and software engineering principles.
-              I'm particularly interested in machine learning and artificial intelligence applications.
+              {/* Corrected Line Below */}
+              I&apos;m particularly interested in machine learning and artificial intelligence applications.
             </p>
             <p className="text-lg">
               Currently seeking opportunities in data engineering or software development where I can apply my skills and continue
